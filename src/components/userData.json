@@ -1,0 +1,1 @@
+"const userData = {\r\n  username: \"Jacques Gluke\",\r\n  tag: \"jgluke\",\r\n  location: \"Ocho Rios, Jamaica\",\r\n  avatar: \"https://cdn-icons-png.flaticon.com/512/2922/2922506.png\",\r\n  stats: {\r\n    followers: 5603,\r\n    views: 4827,\r\n    likes: 1308\r\n  }\r\n};"
