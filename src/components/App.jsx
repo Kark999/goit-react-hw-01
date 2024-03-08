@@ -4,8 +4,8 @@
 // import friendList from '../components/FriendList';
 // import transactionHistory from '../components/TransactionHistory';
 import './App.css';
-import Profile from '../components/Profile';
-import ProfileData from '../components/Profile.json';
+import Profile from '../components/Profile/Profile';
+import ProfileData from '../assets/Profile.json';
 
 const App = () => {
   return (

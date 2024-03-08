@@ -1,1 +1,32 @@
-"const friends = [\r\n  {\r\n    avatar: \"https://cdn-icons-png.flaticon.com/512/1998/1998592.png\",\r\n    name: \"Mango\",\r\n    isOnline: true,\r\n    id: 1812\r\n  },\r\n  {\r\n    avatar: \"https://cdn-icons-png.flaticon.com/512/616/616438.png\",\r\n    name: \"Kiwi\",\r\n    isOnline: false,\r\n    id: 1137\r\n  },\r\n  {\r\n    avatar: \"https://cdn-icons-png.flaticon.com/512/1623/1623681.png\",\r\n    name: \"Ajax\",\r\n    isOnline: true,\r\n    id: 1213\r\n  },\r\n  {\r\n    avatar: \"https://cdn-icons-png.flaticon.com/512/2977/2977285.png\",\r\n    name: \"Jay\",\r\n    isOnline: true,\r\n    id: 1714\r\n  },\r\n  {\r\n    avatar: \"https://cdn-icons-png.flaticon.com/512/1998/1998749.png\",\r\n    name: \"Poly\",\r\n    isOnline: false,\r\n    id: 1284\r\n  }\r\n];\r\n\r\nconst App = () => {\r\n  return (\r\n    <>\r\n      <FriendList friends={friends} />\r\n    </>\r\n  );\r\n};"
+[
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
+    "name": "Mango",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "name": "Kiwi",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
+    "name": "Ajax",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2977/2977285.png",
+    "name": "Jay",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
+    "name": "Poly",
+    "isOnline": false,
+    "id": 1284
+  }
+]
