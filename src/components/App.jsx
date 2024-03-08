@@ -5,12 +5,20 @@
 // import transactionHistory from '../components/TransactionHistory';
 import './App.css';
 import Profile from '../components/Profile/Profile';
-import ProfileData from '../assets/Profile.json';
+import userData from '../assets/Profile.json';
 
 const App = () => {
+  const { username, tag, location, avatar, stats } = userData;
+
   return (
     <div>
-      <Profile {...ProfileData} />;
+      <Profile
+        name={username}
+        tag={tag}
+        location={location}
+        image={avatar}
+        stats={stats}
+      />
     </div>
   );
 };
