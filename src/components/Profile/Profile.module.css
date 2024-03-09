@@ -1,0 +1,79 @@
+.profileBox {
+  width: 400px;
+  border: 3px solid #000;
+  border-radius: 8px;
+  padding-top: 12px;
+}
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.profileImage {
+  width: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: none;
+  background-color: #000;
+}
+
+.profileName {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04;
+}
+
+.profileTag {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04;
+}
+
+.profileLocation {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04;
+}
+
+.profileStats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+  background-color: #bfbaba;
+  border-top: 3px solid #767373;
+}
+
+.profileActive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 3px solid #767373;
+  padding-right: 32px;
+}
+.profileActive:first-child {
+  padding-right: 24px;
+}
+.profileActive:last-child {
+  border-right: none;
+  padding-right: 16px;
+}
+
+.profileActiveName {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04;
+}
+
+.profileActiveValue {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04;
+}
