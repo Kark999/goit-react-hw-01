@@ -1,4 +1,5 @@
 import './App.css';
+
 import Profile from '../components/Profile/Profile';
 import userData from '../assets/Profile.json';
 import FriendList from '../components/FriendList/FriendList';
