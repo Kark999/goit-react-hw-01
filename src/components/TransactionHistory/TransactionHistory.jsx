@@ -18,8 +18,10 @@ const TransactionHistory = ({ items }) => {
         {items.map(transaction => (
           <tr className={css.tableBodyRow} key={transaction.id}>
             <td className={css.tableBodyData}>
-              {' '}
-              {capitalizeFirstLetter(transaction.type)}
+              <div className={css.centerAlign}>
+                {' '}
+                {capitalizeFirstLetter(transaction.type)}
+              </div>
             </td>
             <td className={css.tableBodyData}>{transaction.amount}</td>
             <td className={css.tableBodyData}>{transaction.currency}</td>

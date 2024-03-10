@@ -21,15 +21,17 @@
 }
 
 .tableBodyRow:nth-child(even) {
-  background-color: #f8f8f8;
+  background-color: #fff;
 }
 
 .tableBodyRow:nth-child(odd) {
-  background-color: #e0e0e0;
+  background-color: #c9c8c8;
 }
 
 .tableBodyData {
   padding: 8px 16px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .tableBodyRow {
@@ -38,4 +40,11 @@
 
 .tableBodyData {
   border-right: 2px solid #000;
+  font-weight: bold;
+}
+.centerAlign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
