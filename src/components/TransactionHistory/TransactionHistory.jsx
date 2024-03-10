@@ -19,7 +19,7 @@ const TransactionHistory = ({ items }) => {
           <tr className={css.tableBodyRow} key={transaction.id}>
             <td className={css.tableBodyData}>
               <div className={css.centerAlign}>
-                {' '}
+                {/* {' '} */}
                 {capitalizeFirstLetter(transaction.type)}
               </div>
             </td>
